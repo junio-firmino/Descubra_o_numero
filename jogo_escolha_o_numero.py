@@ -12,7 +12,7 @@ class Jogo:                   # Classe que inicia o jogo
     def num_alet(self):       # Método que escolhe o número de forma aleatória  
         self.num_aleatorio = random.randint(self.valor_minimo,self.valor_maximo)
 
-    def chute(self):          # Método que avalia o "chute" do usuário e orienta o mesmo até ao número esolhido 
+    def chute(self):          # Método que avalia o "chute" do usuário e orienta o mesmo a chegar no número escolhido 
         self.num_alet()
         self.pedir_cht()
 
